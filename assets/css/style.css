@@ -1,3 +1,42 @@
 body {
-    background-color: #555555;
+    background-color: #191919;
+}
+
+#center {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+#faf_logo {
+    width: 90%;
+    margin: 20px;
+}
+
+#message {
+    font-family: monospace;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+#f_icon {
+    width: 50px;
+    margin: 20px 5px;
+}
+
+#facebook-link {
+    font-family: monospace;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    display: flex;
+    flex-flow: row;
+    height: 100px;
+    align-items: center;
 }
